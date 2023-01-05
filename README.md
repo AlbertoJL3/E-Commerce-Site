@@ -14,13 +14,6 @@ The goal of this project is to create a backend to allow the e-commerce site to 
 Installation Information is not available for this app. 
 ## Usage
 To use this application, and test the routes, you will have to clone the repo down to your local machine and run it locally using "npm start"
-## User Story
-
-```md
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
-```
 
 ## Acceptance Criteria
 
@@ -50,3 +43,7 @@ Here is some contact information to find me:
 [Github](https://www.github.com/Albertojl3)
 
 Email: 363alberto@gmail.com
+## Links
+You can find a video demonstration of the backend functionality on the link below! 
+
+[Yay E-Commerce!](https://drive.google.com/file/d/1pSVjoGuXnR6YD-y3sK28_-luJhjGYM7b/view)
