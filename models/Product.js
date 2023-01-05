@@ -11,24 +11,24 @@ Product.init(
   {
     // define columns
     id: {
-      type: Sequelize.INTEGER,
+      type: sequelize.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
     },
     product_name: {
-      type: Sequelize.STRING,
+      type: sequelize.STRING,
       allowNull: false,
     },
     price: {
-      type: Sequelize.DECIMAL,
+      type: sequelize.DECIMAL,
       allowNull: false,
       validate: {
         isDecimal: true,
       },
     },
     stock: {
-      type: Sequelize.INTEGER,
+      type: sequelize.INTEGER,
       allowNull: false,
       defaultValue: 10,
       validate: {
@@ -36,7 +36,7 @@ Product.init(
       },
     },
     category_id: {
-      type: Sequelize.INTEGER,
+      type: sequelize.INTEGER,
       references: {
         model: 'category',
         key: 'id',
